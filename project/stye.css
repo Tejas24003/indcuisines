@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+}
+.logo{
+    /* width: 70%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/logoo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: none;
+}
+.logo img{
+    width: 50px;
+    /* box-shadow: 1px 1px 1px 1px whitesmoke; */
+   
+    height: 40px;
+    
+}
+.home i{
+    color: #0096c7;
+    padding-right: 3px;
+}
+.veg i {
+    color: green;
+    padding-right: 3px;
+}
+.Non-Veg i {
+    color: rgb(190, 72, 72);
+    padding-right: 3px;
+}
+
+.navbar{
+    height: 50px;
+    display:flex;
+    align-items: center;
+    position: sticky;
+    justify-content: space-evenly;
+    top: 0;
+    cursor: pointer;
+    /* background-color: black; */
+    /* opacity:.5; */
+    background: transparent;
+    /* border-bottom: 1px solid snow; */
+    /* box-shadow: 1px 1px 1px 1px snow; */
+    border-radius: 5px;
+}
+.nav-list{
+
+ background: transparent;
+ display: flex;
+ align-items: center;
+ text-align: center;
+ 
+ 
+}
+.nav-list li{
+    list-style:none;
+    /* box-shadow: 10px 10px 10px black; */
+    margin: 0%;
+    height: 30px;
+     
+}
+
+
+.nav-list li a{
+    text-decoration: none;
+    padding: 5px;
+     /* border-right: 1px solid snow; */
+    color: white;
+    font-weight: bold;
+    
+
+}
+.rightnav i{
+    color: gray;
+    padding-left: 4px;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color:aquamarine;
+    border-right: none;
+    border-bottom: 1px solid snow;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px 1px gray;
+    font-weight: bolder;
+
+}
+.serach{
+    border-radius: 5px;
+    /* border:1px solid gray; */
+    box-shadow: 1px 1px 1px 1px gray;
+    background-color: white;
+}
+#search{
+    padding: 5px;
+    font-size: medium;
+    border: none;
+    background: transparent;
+    /* box-shadow: 1px 1px 1px 1px ghostwhite; */
+    /* border-radius: 5px; */
+}
+#search:focus{
+    border: none;
+    outline: none;
+}
+.background{
+    background: url(img/paneer_butter_masala_blog-500x500.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+.boxmain{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+    font-family: cursive;
+    max-width: 70%;
+    margin: auto;
+    
+}
+.text-big{
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.smalltext{
+    font-size: 25px;
+}
+.firsthalf{
+    margin-top: 16px;
+}
+.firsthalf img{
+    width:55%;
+    border-radius: 5px;
+}
+.button .btn{
+    background: transparent;
+    color: snow;
+    border-radius: 5px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px lightgreen;
+    padding: 5px;
+}
+.button .btn:hover{
+    color: lightgreen;
+    font-weight: bold;
+}
+.secright{
+    background-color: snow;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.line span{
+    margin: 5px;
+    font-weight: bolder;
+    border-bottom: 1px solid gray;
+}
+.secright hr{
+    width: 400px;
+    height: 1px;
+    background-color: grey;
+    border: none;
+}
+.recommended{
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    /* grid-template-rows: 50px; */
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+   text-align: center;
+}
+.left{
+    border-radius:1px solid red;
+    box-shadow: 1px 1px 1px 1px rgb(238, 104, 104);
+    border-radius: 5px;
+    color: rgb(238, 104, 104);
+}
+.left:hover{
+    border-radius:1px solid grey;
+    box-shadow: 1px 1px 1px 1px rgba(114, 112, 112, 0.897);
+    border-radius: 5px;
+    color: gray;
+}
+.right:hover{
+    border-radius:1px solid red;
+    box-shadow: 1px 1px 1px 1px rgb(238, 104, 104);
+    border-radius: 5px;
+    color: rgb(238, 104, 104);
+}
+.right{
+    border-radius:1px solid grey;
+    box-shadow: 1px 1px 1px 1px rgba(114, 112, 112, 0.897);
+    border-radius: 5px;
+}
+.right p{
+    position: relative;
+}
+.right p i{
+    position: absolute;
+    left: 10px;
+}
+.right p i:hover{
+    color: rgb(238, 104, 104) ;
+}
+.grid{
+    margin-top: 15px;
+    display: grid;
+   
+    /* background-color: aquamarine; */
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: 100px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+@media ( width: 400px ){
+    .grid{
+        /* background-color: blue; */
+    grid-template-columns: repeat(2,300px);
+    grid-template-rows: repeat(3,200px);
+    }
+    .nav-list li{
+        font-size: larger;
+    }
+    .title{
+        color: black;
+        font-size: x-large;
+        font-weight: bold;
+    }
+    .img{
+        height: 150px;
+    }
+    .img1{
+        height: 150px;
+    }
+    .img2{
+        height: 150px;
+    }
+    .img3{
+        height: 150px;
+    }
+    .img4{
+        height: 150px;
+    }
+    .img5{
+        height: 150px;
+    }
+    
+}
+.a{
+    border-radius: 5px;
+    
+}
+.a:hover{
+    box-shadow: 1px 1px 1px 1px gray;
+    transition: 0.6ms;
+}
+.img{
+    height: 100px;
+    background: url(img/logo.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    position: relative;
+    
+}
+.img1{
+    height: 100px;
+    background: url(img/paneer_butter_masala_blog-500x500.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    position: relative;
+}
+.img2{
+    height: 100px;
+    background: url(img/shake.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    position: relative;
+}
+.img3{
+    height: 100px;
+    background: url(img/Untitled.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    position: relative;
+}
+.img4{
+    height: 100px;
+    background: url(img/images.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    position: relative;
+}
+.img5{
+    height: 100px;
+    background: url(img/pizza.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    position: relative;
+}
+.card{
+    position: absolute;
+    /* color: rgb(2, 45, 82); */
+    right: 5px;
+    
+    /* border-bottom: 1px solid snow; */
+}
+.card i{
+    color: red;
+  right: 15px;
+}
+.card i:hover{
+/* background-color: red; */
+/* background-color: red; */
+color: darkgreen;
+
+transform: scale(0.6ms);
+transition: 0.5ms;
+}
+.card1{
+    position: absolute;
+    bottom: 2px;
+    left: 5px;
+}
+.card1 p{
+    /* background-color: rgb(206, 195, 181); */
+    color: beige;
+    font-weight: bold;
+    
+    border-radius: 5px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
+.foot{
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px dotted rgb(41, 40, 40);
+    position: relative;
+    background-color: rgb(182, 178, 178);
+    width: 100%;
+    height: 350px;
+    /* bottom: 0; */
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.indian{
+    position: absolute;
+    margin-right: 32px;
+    top: 10px;
+}
+.indian h4{
+    color: darkgreen;
+    /* opacity: 0.5; */
+}
+.indian p{
+    opacity: 0.6;
+}
+.indian h4 i{
+    font-size: 25px;
+}
+.footgrid{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(6, 30px);
+     gap: 4px; 
+    /* row-gap: 2px; */
+}
+.footgrid p{
+    margin: 0;
+    color: snow;
+    font-size: small;
+    cursor: pointer;
+}
+.footgrid p select{
+    background: transparent;
+    color: snow;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+    box-shadow: none;
+}
+.footgrid i{
+    padding-left: 6px;
+    color: black;
+    /* border-bottom: 1px solid snow; */
+}
+.footgrid i:hover{
+    color: blue;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+.footerbottm{
+    display: flex;
+}
+.footerbottm h6{
+ width: 200px;
+}
+.footerbottm span{
+    width: 100px;
+    background: url(img/googleplay.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 1000px;
+    cursor: pointer;
+}
+.footerbottm div{
+    width: 100px;
+    background: url(img/appstore.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 1000px;
+    cursor: pointer;
+    margin-left: 5px;
+}
